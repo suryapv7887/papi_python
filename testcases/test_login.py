@@ -2,7 +2,6 @@ import pytest
 
 from pages.login_page import LoginPage
 
-@pytest.mark.skip
 class TestLogin:
     def test_login_valid_credentials(self, setup):
         login_page = LoginPage(setup)
