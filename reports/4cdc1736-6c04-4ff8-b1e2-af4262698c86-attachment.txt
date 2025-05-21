@@ -1,0 +1,14 @@
+Clicked option: Regular Employees
+Clicked option: B+
+Clicked option: Female
+Clicked option: Married
+Clicked option: Spouse
+ Exception while selecting dropdown option 'Spouse': Message: 
+
+Clicked option: Programming Language
+Clicked option: Python
+Clicked option: Delivery Team
+Clicked option: Senior Quality Analyst
+Clicked option: Alice QA
+Clicked option: Admin
+Clicked option: Chennai

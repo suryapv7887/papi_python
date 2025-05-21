@@ -1,0 +1,37 @@
+Clicked option: Regular Employees
+Clicked option: B+
+Clicked option: Female
+Clicked option: Married
+Clicked option: Spouse
+Clicked option: Spouse
+ Option not found: Programming Language
+ Exception while selecting dropdown option 'Python': Message: element click intercepted: Element <div tabindex="0" role="combobox" aria-controls=":r19:" aria-expanded="false" aria-haspopup="listbox" aria-label="... an option" aria-labelledby="mui-component-select-user_skill[0].skill" id="mui-component-select-user_skill[0].skill" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-b7v0nw">Select</div> is not clickable at point (426, 477). Other element would receive the click: <div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-esi9ax" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);"></div>
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00F6FC83+61635]
+	GetHandleVerifier [0x00F6FCC4+61700]
+	(No symbol) [0x00D905D3]
+	(No symbol) [0x00DDECB0]
+	(No symbol) [0x00DDD054]
+	(No symbol) [0x00DDABF7]
+	(No symbol) [0x00DD9EFB]
+	(No symbol) [0x00DCE5A5]
+	(No symbol) [0x00DFD29C]
+	(No symbol) [0x00DCE034]
+	(No symbol) [0x00DFD514]
+	(No symbol) [0x00E1E61B]
+	(No symbol) [0x00DFD096]
+	(No symbol) [0x00DCC840]
+	(No symbol) [0x00DCD6A4]
+	GetHandleVerifier [0x011F45A3+2701795]
+	GetHandleVerifier [0x011EFD26+2683238]
+	GetHandleVerifier [0x0120AA6E+2793134]
+	GetHandleVerifier [0x00F86945+155013]
+	GetHandleVerifier [0x00F8D02D+181357]
+	GetHandleVerifier [0x00F774D8+92440]
+	GetHandleVerifier [0x00F77680+92864]
+	GetHandleVerifier [0x00F62070+5296]
+	BaseThreadInitThunk [0x76325D49+25]
+	RtlInitializeExceptionChain [0x77C3D03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77C3CFC1+561]
+
