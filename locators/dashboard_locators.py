@@ -1,4 +1,3 @@
-# locators/dashboard_locators.py
 from selenium.webdriver.common.by import By
 
 class DashboardLocators:

@@ -10,7 +10,7 @@ class DashboardPage:
         self.helpers = Helpers(driver)
 
     def click_regular_employees(self):
-        self.helpers.click(LOC.PEOPLE_ICON)
+        #self.helpers.click(LOC.PEOPLE_ICON)
         return self.helpers.wait_and_click_dropdown_option(
             dropdown_locator=LOC.PEOPLE_ICON,
             option_locator=LOC.PEOPLE_MENU_OPTIONS,
