@@ -1,16 +1,17 @@
-import time
+import logging
 import pytest
 from pages.new_contract_employee import NEW_CONTRACT_EMPLOYEE
-from pages.new_regular_employee_page import NEW_REGULAR_EMPLOYEE
 from pages.people_dashboard_page import DashboardPage
-from testdata.regular_employee import PeopleData
+from utils.helpers import Helpers
+
+@pytest.mark.usefixtures("login_user")
+class TestAddNewContractEmployee:
+
+    def test_contract_employee(self, login_user):
+        self.driver = login_user
+        self.dashboard_page = DashboardPage(self.driver)
+        self.employee_form_page = NEW_CONTRACT_EMPLOYEE(self.driver)
+        self.dashboard_page.click_contract_employees()
+        self.employee_form_page.click_add_employee()
 
 
-class Test_ADD_NEW_CONTRACT_EMPLOYEE:
-   def test_navigate_to_add_employee_form(self,login_user):
-        dashboard_page = DashboardPage(login_user)
-        dashboard_page.click_contract_employees()
-        employee_form_page = NEW_CONTRACT_EMPLOYEE(login_user)
-        employee_form_page.click_add_employee()
-        assert employee_form_page.is_displayed(), "Employee form page did not load successfully"
-        time.sleep(2)

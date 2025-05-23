@@ -1,0 +1,23 @@
+22-05-2025 20:17:17 - INFO - Started New employee update
+22-05-2025 20:17:19 - INFO - Updated Basic details
+22-05-2025 20:17:19 - INFO - Filling Personal details
+22-05-2025 20:17:23 - INFO - Updated Personal details
+22-05-2025 20:17:23 - INFO - Filling Address details
+22-05-2025 20:17:24 - INFO - Updated address details
+22-05-2025 20:17:24 - INFO - Filling Bank details
+22-05-2025 20:17:25 - INFO - Updated Bank details
+22-05-2025 20:17:25 - INFO - Filling Emergency details
+22-05-2025 20:17:25 - INFO - Updated Emergency details
+22-05-2025 20:17:25 - INFO - Filling employment details
+22-05-2025 20:17:26 - INFO - Updated employment details
+22-05-2025 20:17:26 - INFO - Filling Insurance details
+22-05-2025 20:17:26 - INFO - Updated Insurance details
+22-05-2025 20:17:26 - INFO - Filling PF details
+22-05-2025 20:17:31 - INFO - Updated PF details
+22-05-2025 20:17:31 - INFO - Filling Skill details
+22-05-2025 20:17:37 - INFO - Updated Skill details
+22-05-2025 20:17:37 - INFO - Filling Work details
+22-05-2025 20:17:48 - INFO - Updated Work details
+22-05-2025 20:17:48 - INFO - Filling Education details
+22-05-2025 20:17:48 - INFO - Updated Education details
+22-05-2025 20:17:48 - INFO - Submit the employment details
