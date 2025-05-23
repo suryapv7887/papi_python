@@ -1,5 +1,4 @@
 import logging
-
 import pytest
 from pages.new_regular_employee_page import NEW_REGULAR_EMPLOYEE
 from pages.people_dashboard_page import DashboardPage
@@ -18,8 +17,9 @@ class TestAddNewRegularEmployee:
 
         self.dashboard_page.click_regular_employees()
         self.employee_form_page.click_add_employee()
-        self.logger = Helpers.use_logger(name="test_add_regular_employee")
+        self.logger = Helpers.use_logger()
 
+    #@pytest.mark.parametrize("employee_data", PeopleData.ADD_EMPLOYEE_DATA)
     def test_fill_new_employee_details(self):
         self.logger.info("Started New employee update")
         self.employee_form_page.fill_basic_details(
@@ -40,7 +40,7 @@ class TestAddNewRegularEmployee:
         )
         self.logger.info("Updated Personal details")
 
-        self.logger.info("Filling Adderess details")
+        self.logger.info("Filling Address details")
         self.employee_form_page.fill_address_details(
             present_address=self.employee_data["present_address"],
             permanent_address=self.employee_data.get("permanent_address"),

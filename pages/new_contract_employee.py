@@ -18,3 +18,8 @@ class NEW_CONTRACT_EMPLOYEE:
 
     def is_displayed(self):
         return self.helpers.wait_for_element(LOC.ADD_CONTRACTOR_FORM, condition="visible", timeout=10)
+
+
+
+
+

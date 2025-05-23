@@ -1,5 +1,4 @@
 import os
-
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -72,12 +71,13 @@ def pytest_runtest_makereport(item, call):
     outcome = yield
     report = outcome.get_result()
 
-    if report.when == "call" and report.failed:
+    if report.when == "call" :
+        #and report.failed
         driver = item.funcargs.get("setup")  # Replace 'setup' if your fixture has another name
         if driver:
             try:
-                xfail = hasattr(report, "wasxfail")
-                if (report.skipped and xfail) or (report.failed and not xfail):
+                # xfail = hasattr(report, "wasxfail")
+                # if (report.skipped and xfail) or (report.failed and not xfail):
                     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                     screenshot_name = f"{item.name}_{timestamp}.png"
                     screenshot_dir = os.path.join(os.getcwd(), "screenshots")
@@ -85,12 +85,12 @@ def pytest_runtest_makereport(item, call):
 
                     screenshot_path = os.path.join(screenshot_dir, screenshot_name)
                     driver.save_screenshot(screenshot_path)
-
+                    status = "PASSED" if report.passed else "FAILED"
                     # Allure attachment
                     with open(screenshot_path, "rb") as image_file:
                         allure.attach(
                             image_file.read(),
-                            name=f"Failure_Screenshot_{item.name}_{timestamp}",
+                            name=f"{item.name} - {status} - {timestamp}",
                             attachment_type=allure.attachment_type.PNG
                         )
 
