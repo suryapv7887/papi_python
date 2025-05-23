@@ -12,7 +12,6 @@ class NEW_REGULAR_EMPLOYEE:
         self.driver = driver
         self.helpers = Helpers(driver)
 
-
     def click_add_employee(self):
         element = self.helpers.wait_for_element(LOC.ADD_EMPLOYEE_BUTTON, condition="clickable")
         ActionChains(self.driver).move_to_element(element).pause(2).click().perform()

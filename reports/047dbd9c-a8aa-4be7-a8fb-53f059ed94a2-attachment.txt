@@ -1,0 +1,23 @@
+[32mINFO    [0m papi_test:test_new_regular_employee.py:23 Started New employee update
+[32mINFO    [0m papi_test:test_new_regular_employee.py:31 Updated Basic details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:32 Filling Personal details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:40 Updated Personal details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:42 Filling Address details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:48 Updated address details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:50 Filling Bank details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:61 Updated Bank details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:62 Filling Emergency details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:67 Updated Emergency details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:68 Filling employment details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:75 Updated employment details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:76 Filling Insurance details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:81 Updated Insurance details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:82 Filling PF details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:88 Updated PF details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:89 Filling Skill details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:97 Updated Skill details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:98 Filling Work details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:109 Updated Work details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:110 Filling Education details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:117 Updated Education details
+[32mINFO    [0m papi_test:test_new_regular_employee.py:119 Submit the employment details
