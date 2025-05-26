@@ -146,11 +146,3 @@ def logger(request):
     return logger
 
 
-def pytest_runtest_makereport(item, call):
-
-    logger = logging.getLogger(item.name)
-    if call.when == 'call' and call.excinfo is not None:
-        exc = call.excinfo
-        # Log the failure or error
-        logger.error(f"Test {item.name} failed during {call.when} phase.")
-        logger.error(f"Exception info: {exc.value}")

@@ -10,7 +10,7 @@ class TestAddNewRegularEmployee:
     def setup_pages(self, login_user, logger):
         self.driver = login_user
         self.logger = logger
-        self.dashboard_page = DashboardPage(self.driver)
+        self.dashboard_page = DashboardPage(self.driver,logger)
         self.employee_form_page = NewRegularEmployee(self.driver)
         self.employee_data = PeopleData.ADD_EMPLOYEE_DATA
 
