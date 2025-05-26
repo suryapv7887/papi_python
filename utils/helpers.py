@@ -87,26 +87,5 @@ class Helpers:
                 return
         raise Exception(f"Radio button with text '{button_text}' not found.")
 
-    @staticmethod
-    def use_logger(log_level=logging.INFO,name=None):
-        logger_name = name
-        logger = logging.getLogger(logger_name)
-        if not logger.hasHandlers():
-            log_dir = "logs"
-            os.makedirs(log_dir, exist_ok=True)
-            log_file_path = os.path.join(log_dir, f"{name}.log")
-            logger.setLevel(log_level)
 
-            file_handler = logging.FileHandler(log_file_path, mode='a')
-            stream_handler = logging.StreamHandler()
-            formatter = logging.Formatter(
-                '%(asctime)s - %(levelname)s - %(message)s',
-                datefmt="%d-%m-%Y %H:%M:%S"
-            )
-            file_handler.setFormatter(formatter)
-            stream_handler.setFormatter(formatter)
-            logger.addHandler(file_handler)
-            logger.addHandler(stream_handler)
-
-        return logger
 

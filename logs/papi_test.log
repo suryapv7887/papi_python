@@ -1,0 +1,44 @@
+26-05-2025 22:09:36 - INFO - test_contract_employee - Click contract employee
+26-05-2025 22:55:14 - INFO - test_contract_employee - Click contract employee
+26-05-2025 23:06:54 - INFO - test_contract_employee - Clicked Contract Employee
+26-05-2025 23:08:30 - INFO - test_navigate_to_regular_employees - People Master-Employees
+26-05-2025 23:40:18 - INFO - test_fill_new_employee_details - Navigating to Regular Employees section
+26-05-2025 23:40:25 - INFO - test_fill_new_employee_details - Started filling new employee details
+26-05-2025 23:40:27 - INFO - test_fill_new_employee_details - Updated Basic details
+26-05-2025 23:40:27 - INFO - test_fill_new_employee_details - Filling Personal details
+26-05-2025 23:40:31 - INFO - test_fill_new_employee_details - Updated Personal details
+26-05-2025 23:40:31 - INFO - test_fill_new_employee_details - Filling Address details
+26-05-2025 23:40:32 - INFO - test_fill_new_employee_details - Updated address details
+26-05-2025 23:40:32 - INFO - test_fill_new_employee_details - Filling Bank details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Updated Bank details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Filling Emergency details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Updated Emergency details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Filling employment details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Updated employment details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Filling Insurance details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Updated Insurance details
+26-05-2025 23:40:33 - INFO - test_fill_new_employee_details - Filling PF details
+26-05-2025 23:40:39 - INFO - test_fill_new_employee_details - Updated PF details
+26-05-2025 23:40:39 - INFO - test_fill_new_employee_details - Filling Skill details
+26-05-2025 23:40:45 - INFO - test_fill_new_employee_details - Updated Skill details
+26-05-2025 23:40:45 - INFO - test_fill_new_employee_details - Filling Work details
+26-05-2025 23:40:56 - INFO - test_fill_new_employee_details - Updated Work details
+26-05-2025 23:40:56 - INFO - test_fill_new_employee_details - Filling Education details
+26-05-2025 23:40:57 - INFO - test_fill_new_employee_details - Updated Education details
+26-05-2025 23:40:57 - INFO - test_fill_new_employee_details - Submit the employment details
+26-05-2025 23:49:53 - INFO - test_contract_employee - Clicking on Contract Employees from dropdown
+26-05-2025 23:49:57 - INFO - test_contract_employee - Clicked Contract Employee
+26-05-2025 23:50:44 - INFO - test_navigate_to_regular_employees - Clicking on Regular Employees from dropdown
+26-05-2025 23:50:49 - INFO - test_navigate_to_regular_employees - Getting header text
+26-05-2025 23:50:49 - INFO - test_navigate_to_regular_employees - People Master-Employees
+26-05-2025 23:52:50 - INFO - test_navigate_to_regular_employees - Clicking on Regular Employees from dropdown
+26-05-2025 23:52:54 - INFO - test_navigate_to_regular_employees - Getting header text
+26-05-2025 23:52:54 - INFO - test_navigate_to_regular_employees - People Master-Employees
+27-05-2025 00:02:28 - INFO - test_navigate_to_regular_employees - Clicking on Regular Employees from dropdown
+27-05-2025 00:02:32 - INFO - test_navigate_to_regular_employees - Getting header text
+27-05-2025 00:02:32 - INFO - test_navigate_to_regular_employees - People Master-Employees
+27-05-2025 00:02:57 - INFO - test_navigate_to_regular_employees - Clicking on Regular Employees from dropdown
+27-05-2025 00:03:00 - INFO - test_navigate_to_regular_employees - Getting header text
+27-05-2025 00:03:01 - ERROR - test_navigate_to_regular_employees - Test test_navigate_to_regular_employees failed during call phase.
+27-05-2025 00:03:01 - ERROR - test_navigate_to_regular_employees - Exception info: Expected 'People Master-Employees' in header, got 'People Master-Employees'
+assert 'People Master-Employeesss' in 'People Master-Employees'
