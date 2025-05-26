@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class Regular_EmployeeFormLocators:
+class RegularEmployeeFormLocators:
     ADD_EMPLOYEE_BUTTON=(By.XPATH, "//button[@data-qa-automation='zohoSyncButton']")
     ADD_EMPLOYEE_FORM=(By.XPATH,"//span[text()='Add Regular Employee']")
     FIRST_NAME = (By.XPATH, "//input[@placeholder='First Name']")

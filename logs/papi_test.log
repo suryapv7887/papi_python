@@ -1,0 +1,4 @@
+27-05-2025 00:13:48 - INFO - test_navigate_to_regular_employees - Clicking on Regular Employees from dropdown
+27-05-2025 00:13:52 - INFO - test_navigate_to_regular_employees - Getting header text
+27-05-2025 00:13:52 - ERROR - test_navigate_to_regular_employees - Test 'test_navigate_to_regular_employees' failed with exception: Expected 'People Master-Employees' in header, got 'People Master-Employees'
+assert 'People Master-Employeesss' in 'People Master-Employees'

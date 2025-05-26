@@ -1,27 +1,26 @@
-import logging
 import pytest
-from pages.new_regular_employee_page import NEW_REGULAR_EMPLOYEE
+from pages.new_regular_employee_page import NewRegularEmployee
 from pages.people_dashboard_page import DashboardPage
 from testdata.regular_employee import PeopleData
-from utils.helpers import Helpers
 
-@pytest.mark.usefixtures("login_user")
+@pytest.mark.usefixtures("login_user","logger")
 class TestAddNewRegularEmployee:
 
     @pytest.fixture(autouse=True)
-    def setup_pages(self, login_user):
+    def setup_pages(self, login_user, logger):
         self.driver = login_user
-        self.dashboard_page = DashboardPage(self.driver)
-        self.employee_form_page = NEW_REGULAR_EMPLOYEE(self.driver)
+        self.logger = logger
+        self.dashboard_page = DashboardPage(self.driver,logger)
+        self.employee_form_page = NewRegularEmployee(self.driver)
         self.employee_data = PeopleData.ADD_EMPLOYEE_DATA
 
+        self.logger.info("Navigating to Regular Employees section")
         self.dashboard_page.click_regular_employees()
         self.employee_form_page.click_add_employee()
-        self.logger = Helpers.use_logger()
 
-    #@pytest.mark.parametrize("employee_data", PeopleData.ADD_EMPLOYEE_DATA)
-    def test_fill_new_employee_details(self):
-        self.logger.info("Started New employee update")
+
+    def test_fill_new_employee_details(self, logger):
+        logger.info("Started filling new employee details")
         self.employee_form_page.fill_basic_details(
             self.employee_data["first_name"],
             self.employee_data["last_name"],

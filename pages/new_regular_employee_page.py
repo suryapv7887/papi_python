@@ -2,11 +2,11 @@ import time
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.expected_conditions import none_of
 from selenium.webdriver.support.wait import WebDriverWait
-from locators.regular_employee_locators import Regular_EmployeeFormLocators as LOC
+from locators.regular_employee_locators import RegularEmployeeFormLocators as LOC
 from utils.helpers import Helpers
 
 
-class NEW_REGULAR_EMPLOYEE:
+class NewRegularEmployee:
 
     def __init__(self, driver):
         self.driver = driver

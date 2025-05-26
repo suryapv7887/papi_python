@@ -1,6 +1,7 @@
 import pytest
 from configurations.config import Config
 from pages.login_page import LoginPage
+import pytest
 
 <<<<<<< HEAD
 =======
